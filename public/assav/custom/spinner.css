@@ -1,0 +1,129 @@
+#latar {
+    background: rgba(0, 0, 0, 0.29);
+    color: #666666;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 50000;
+    top: 0;
+    left: 0;
+    float: right; ;
+    text-align: center;
+}
+
+.latardiv {
+  margin: 10% 40%;
+}
+
+.jd{
+  padding: 10px 15px;
+}
+
+.spins {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60px;
+      height: 60px;
+      z-index: 500000;
+      margin: -42px 0 0 -32px;
+      background: #337ab7;
+      transform: rotate(45deg);
+      animation: spin 1s infinite linear;
+    }
+    @keyframes spin {
+        0% { -webkit-transform:rotate(0deg); }
+        100% { -webkit-transform:rotate(360deg); }
+    }
+
+
+.bd-example {
+  padding: 5px;
+  margin: 7px 20px;
+  border: 1px solid #eee;
+  border-left: 5px solid #eee;
+  position: relative;
+  box-shadow: 2px 2px 1px #ddd;
+}
+.bd-example:hover{
+  background-color: #eee;
+}
+
+.bd-input {
+  padding: 5px;
+  border-radius: 5px !important;
+  margin: 15px 20px;
+  position: relative;
+  background-color: #eee;
+}
+
+.portlet-shadow{
+  box-shadow: 2px 2px 2px 2px #ddd;
+}
+.row0{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.col10{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.col{
+  padding:5px 0px;
+  text-align: center;
+}
+
+.col-padd{
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.p0{
+  margin : 0px !important;
+}
+.f15{
+  font-size: 15px;
+}
+.move>div,.move>div>label{
+  cursor: move;
+}
+
+.corner-btn{
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+.corner-btn-down{
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+
+.inf{
+  margin: 7px 20px;
+  padding: 10px 10px 20px 10px ;
+  /*border: 1px solid #eee;
+  border-left: 5px solid #eee;*/
+  position: relative;
+  
+}
+.inf:hover{
+  /*box-shadow: 2px 2px 1px #ddd;*/
+  background-color: #eee;
+}
+
+.dd-list{
+    display: block;
+    height: auto;
+    margin: 5px 0;
+    /*cursor: move;*/
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

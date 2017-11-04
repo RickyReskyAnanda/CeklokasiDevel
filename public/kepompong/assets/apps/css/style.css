@@ -1,0 +1,31 @@
+.but {
+	  padding:5px 10px;
+	  background: #3192f9;
+	  border:1px solid #3192f9;
+	  position:relative;
+	  color:#000;
+	  border-radius:2px;
+	  text-align:center;
+	  float:left;
+	  cursor:pointer;
+	  width: 110px;
+}
+.hide_file {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    z-index: 1000;
+}
+.edit {
+	  padding:5px 10px;
+	  background:#3192f9;
+	  border:1px solid #3192f9;
+	  position:relative;
+	  color:#fff;
+	  text-align:center;
+	  float:right;
+	  cursor:pointer;
+	  width: 80px;
+}
